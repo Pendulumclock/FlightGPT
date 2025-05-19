@@ -1,7 +1,3 @@
-# conda activate vlm-r1-new
-
-# sh ./open-r1-multimodal/run_scripts/run_grpo_rec_lora.sh
-
 export DEBUG_MODE="true"
 export CUDA_VISIBLE_DEVICES=0,1,2,3
 
