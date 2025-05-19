@@ -80,21 +80,6 @@ class GPTAgent:
         # return [action_dict[x.strip()] for x in eval(result.choices[0].message.content)]
         response = result.choices[0].message.content
         return response
-    
-    # def locate(self, cur_whole_map, cur_rgb_drone, mask_box):
-    #     # print(self.target_description)
-    #     result = self._gpt4o_imagefile(
-    #         map_file=cur_whole_map, 
-    #         view_file=cur_rgb_drone, 
-    #         system_prompt=self.system_prompt, 
-    #         prompt=get_locate_prompt(
-    #             instruction=self.target_description, mask_box = mask_box
-    #         )
-    #     )
-    #     # return [action_dict[x.strip()] for x in eval(result.choices[0].message.content)]
-    #     response = result.choices[0].message.content
-    #     return response
-
 
     @staticmethod
     def _local_image_to_data_url(image_path):
