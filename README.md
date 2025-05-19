@@ -76,7 +76,7 @@ You can use the visualize_prediction function to visualize the predicted target 
 ```bash
 cd LLaMA-Factory
 llamafactory-cli train examples/train_lora/qwen2vl_lora_sft.yaml
-llamafactory-cli export /mnt/vepfs/fs_users/caihengxing/djj/LLaMA-Factory/examples/merge_lora/qwen2vl_lora_sft.yaml
+llamafactory-cli export ./LLaMA-Factory/examples/merge_lora/qwen2vl_lora_sft.yaml
 ```
 
 ---
