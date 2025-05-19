@@ -15,9 +15,20 @@ This project depends on multiple models and tool libraries. It is recommended to
 
 ---
 
+### 🛠️ Model and Data Preparation
+
+* Download model weights to `./model_weight/`  
+  Note: Change the value of `max_pixels` in `preprocessor_config.json` to `16032016`.
+
+* Download data to `./data/`
+
+
+---
+
 ## 📦 Project Structure
 ├── model_weight/ # Directory for model weights (download manually)  
 ├── experiment/  
+├── R1PhotoData/  
 ├── data/  
     └── citynav/ # Data annotation directory  
     └── rgbd-new/ # Raw image files  
@@ -30,16 +41,6 @@ This project depends on multiple models and tool libraries. It is recommended to
 ├── requirements.txt # Combined environment dependency file  
 ├── README.md # This document  
 ├── ...  
-
----
-
-### 🛠️ Model and Data Preparation
-
-* Download model weights to `./model_weight/`  
-  Note: Change the value of `max_pixels` in `preprocessor_config.json` to `16032016`.
-
-* Download data to `./data/`
-
 
 ---
 
