@@ -1,0 +1,64 @@
+[
+    {
+        "start_position": [
+            425,
+            952
+        ],
+        "landmark_bbox": [
+            [
+                923,
+                2721,
+                1330,
+                3035
+            ]
+        ],
+        "image_path": "/birmingham_block_1_20250423144706803391/map_0_20250423144707334862.jpg",
+        "image_size": [
+            3848,
+            4000
+        ],
+        "episode_id": [
+            "birmingham_block_1",
+            1,
+            1
+        ],
+        "target_description": "A beige and brown house with a dark gray roof cut off by the edge of the map with a white car in front of it off Grosvenor Road",
+        "target_processed_description": "beige and brown house",
+        "target_type": "Building",
+        "target_position": [
+            216,
+            2369
+        ]
+    },
+    {
+        "start_position": [
+            2901,
+            2123
+        ],
+        "landmark_bbox": [
+            [
+                1691,
+                1975,
+                2268,
+                2292
+            ]
+        ],
+        "image_path": "/birmingham_block_1_20250423144707591380/map_0_20250423144708119038.jpg",
+        "image_size": [
+            3848,
+            4000
+        ],
+        "episode_id": [
+            "birmingham_block_1",
+            2,
+            0
+        ],
+        "target_description": "A big building with grey roof situated behind the St Teresa of the Child Jesus Catholic Church. A blue car and a grey car is parked close to the building. The railway track is behind the building.",
+        "target_processed_description": "big building",
+        "target_type": "Building",
+        "target_position": [
+            1805,
+            1592
+        ]
+    }
+]
