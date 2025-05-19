@@ -63,7 +63,7 @@ CUDA_VISIBLE_DEVICES=4,5,6,7 vllm serve path/to/your/model \
 python eval_by_qwen.py
 ```
 
-3.Result Visualization  
+3. Result Visualization  
 You can use the visualize_prediction function to visualize the predicted target coordinates and the landmark bounding boxes, as well as the actual target coordinates and landmark bounding boxes.
 
 ---
