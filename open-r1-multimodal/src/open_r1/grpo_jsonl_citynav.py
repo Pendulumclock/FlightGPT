@@ -119,7 +119,6 @@ def euclidean_distance(cur_pose, target_location):
     cur_x, cur_y = cur_pose
     target_x, target_y = target_location
     
-    # 只考虑x和y坐标，计算欧式距离
     distance = math.sqrt((target_x - cur_x) ** 2 + (target_y - cur_y) ** 2)
     return distance
 
@@ -264,7 +263,7 @@ class CitynavDataset(Dataset):
             image_path = script_args.image_folders + step_data['image_path']
             item['image_path'] = image_path
             item['start_position'] = step_data['start_position']
-            item['problem'] = step_data['target_description']   #输入的prompt
+            item['problem'] = step_data['target_description'] 
             item['solution'] = f"{{'landmark_bbox': {step_data['landmark_bbox']}, 'target_position': {step_data['target_position']}}}" 
             self.list_data_dict.append(item)
 
