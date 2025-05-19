@@ -34,7 +34,7 @@ This project depends on multiple models and tool libraries. It is recommended to
 
 ### 🛠️ Model and Data Preparation
 
-* Download model weights to `./model_weight/`
+* Download model weights to `./model_weight/`  
   Note: Change the value of `max_pixels` in `preprocessor_config.json` to `16032016`.
 
 * Download training data to `./data/training_data/`
