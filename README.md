@@ -17,6 +17,7 @@ This project depends on multiple models and tool libraries. It is recommended to
 
 ## 📦 Project Structure
 ├── model_weight/ # Directory for model weights (download manually)  
+├── experiment/  
 ├── data/  
   └── citynav/ # Data annotation directory  
   └── rgbd-new/ # Raw image files  
