@@ -7,10 +7,10 @@ This project depends on multiple models and tool libraries. It is recommended to
 ### Install Conda Environment
 
 ```bash
-- conda create -n merged-env python=3.10
-- conda activate merged-env
+- conda create -n flightgpt python=3.10
+- conda activate flightgpt
 
-- pip install -r merged_requirements.txt
+- pip install -r requirements.txt
 ```
 
 ---
