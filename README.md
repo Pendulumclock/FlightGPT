@@ -45,7 +45,7 @@ This project depends on multiple models and tool libraries. It is recommended to
 
 1. Start the vLLM service
 ```bash
-CUDA_VISIBLE_DEVICES=4,5,6,7 vllm serve path/to/your/model \
+CUDA_VISIBLE_DEVICES=0,1,2,3 vllm serve path/to/your/model \
   --dtype auto \
   --trust-remote-code \
   --served-model-name qwen_2_5_vl_7b \
