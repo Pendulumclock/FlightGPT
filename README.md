@@ -47,7 +47,6 @@ This project depends on multiple models and tool libraries. It is recommended to
 ### 🚀 Inference
 
 1. Start the vLLM service
-
 ```bash
 CUDA_VISIBLE_DEVICES=4,5,6,7 vllm serve path/to/your/model \
   --dtype auto \
@@ -69,7 +68,7 @@ python eval_by_qwen.py
 
 3.Result Visualization
 You can use the visualize_prediction function to visualize the predicted target coordinates and the landmark bounding boxes, as well as the actual target coordinates and landmark bounding boxes.
----
+
 
 ### 🚀 Training
 1. SFT
