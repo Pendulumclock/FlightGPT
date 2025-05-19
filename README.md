@@ -15,17 +15,14 @@ This project depends on multiple models and tool libraries. It is recommended to
 
 ---
 
-### 🛠️ Model and Data Preparation
+## 🛠️ Model and Data Preparation
 
 * Download model weights to `./model_weight/`  
   Note: Change the value of `max_pixels` in `preprocessor_config.json` to `16032016`.
 
 * Download data to `./data/`
 
-
----
-
-## 📦 Project Structure
+### 📦 Project Structure
 ├── model_weight/ # Directory for model weights (download manually)  
 ├── experiment/  
 ├── R1PhotoData/  
@@ -44,7 +41,7 @@ This project depends on multiple models and tool libraries. It is recommended to
 
 ---
 
-### 🚀 Inference
+## 🚀 Inference
 
 1. Start the vLLM service
 ```bash
@@ -69,8 +66,9 @@ python eval_by_qwen.py
 3.Result Visualization  
 You can use the visualize_prediction function to visualize the predicted target coordinates and the landmark bounding boxes, as well as the actual target coordinates and landmark bounding boxes.
 
+---
 
-### 🚀 Training
+## 🚀 Training
 1. SFT
 ```bash
 cd LLaMA-Factory
@@ -78,7 +76,6 @@ llamafactory-cli train examples/train_lora/qwen2vl_lora_sft.yaml
 llamafactory-cli export ./LLaMA-Factory/examples/merge_lora/qwen2vl_lora_sft.yaml
 ```
 
----
 
 2、GRPO
 ```bash
