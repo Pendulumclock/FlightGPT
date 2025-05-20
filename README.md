@@ -22,6 +22,8 @@ This project depends on multiple models and tool libraries. It is recommended to
 
 * Download data to `./data/`
 
+* And for sft, Download the cleaned_final.json to ./LLaMA-Factory/data
+
 ### 📦 Project Structure
 ├── model_weight/ # Directory for model weights (download manually)  
 ├── experiment/  
